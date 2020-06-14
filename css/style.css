@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
+body {
+  font-family: "Raleway", "sans-serif";
+  color: #383838;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a {
+  color: #383838;
+}
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #383838;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #383838;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #383838;
+}
+
+p {
+  color: #383838;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+header#header-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0px 1px 25px #ededed;
+}
+
+.header-menu {
+  position: relative;
+  top: 10px;
+}
+.header-menu ul#header-menu-list li.menu-name a {
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header-menu ul#header-menu-list li.menu-name a:hover {
+  background-color: #00a99d;
+  color: white;
+  opacity: 0.3s;
+  transition: 0.6s;
+}
+
+#main-content {
+  margin-top: 80px;
+}
+#main-content .main-content-title-intro {
+  margin-top: 10px;
+}
+#main-content .company-aim {
+  margin-top: 12px;
+}
+#main-content .company-aim h3 {
+  color: #7a7a7a;
+}
+#main-content h2 .special-word {
+  color: #00a99d;
+}
+#main-content .title-intro h2 {
+  font-weight: 700;
+  position: relative;
+}
+#main-content .title-intro h2:before {
+  content: "";
+  background-image: url("../images/shape1.png");
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  left: -23px;
+  background-repeat: no-repeat;
+}
+#main-content .title-intro h2::after {
+  content: "";
+  background-image: url("../images/shape1.png");
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  right: -23px;
+  background-repeat: no-repeat;
+}
+#main-content .services-section {
+  margin-top: 39px;
+}
+#main-content .services-section .main-content-intro .company-services-icons {
+  text-align: center;
+  margin-bottom: 34px;
+  margin-right: 26px;
+  margin-left: 25px;
+}
+#main-content .services-section .main-content-intro a {
+  color: black;
+}
+#main-content .services-section .main-content-intro a i.fa.icons-size {
+  border-radius: 50%;
+  background-color: #383838;
+  font-size: 2.3rem;
+  color: white;
+  height: 100px;
+  width: 100px;
+  padding-top: 32px;
+  padding-bottom: 31px;
+  padding-right: 34px;
+  padding-left: 35px;
+}
+#main-content .services-section .main-content-intro .company-services {
+  margin-top: 10px;
+}
+#main-content .services-section .main-content-intro .company-services h3 {
+  font-weight: 600;
+  text-align: center;
+}
+#main-content .services-section .main-content-intro .company-services p {
+  text-align: center;
+}
+#main-content .services-section .main-content-intro .company-services .readmore {
+  text-align: center;
+}
+#main-content .services-section .main-content-intro:hover {
+  cursor: pointer;
+}
+#main-content .services-section .main-content-intro:hover button.btn-light.readmore-option {
+  color: white;
+  background-color: #00a99d;
+  transition: 0.4s;
+  opacity: 0.3s;
+}
+#main-content .services-section .main-content-intro:hover i.fa.icons-size {
+  background-color: #00a99d;
+  transition: 0.4s;
+  opacity: 0.3s;
+}
+
+#amazing-features-content {
+  margin-top: 20px;
+  background-color: #383838;
+}
+#amazing-features-content .main-content-title-intro {
+  margin-top: 10px;
+}
+#amazing-features-content .company-aim {
+  margin-top: 12px;
+}
+#amazing-features-content h2 {
+  color: white;
+}
+#amazing-features-content h2 .special-word {
+  color: #00a99d;
+}
+#amazing-features-content .title-intro h2 {
+  font-weight: 700;
+  position: relative;
+}
+#amazing-features-content .title-intro h2:before {
+  content: "";
+  background-image: url("../images/shape1.png");
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  left: -23px;
+  background-repeat: no-repeat;
+}
+#amazing-features-content .title-intro h2::after {
+  content: "";
+  background-image: url("../images/shape1.png");
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  right: -23px;
+  background-repeat: no-repeat;
+}
+#amazing-features-content .amazing-features {
+  text-align: center;
+}
+#amazing-features-content .amazing-features .amazing-feature-logo {
+  text-align: center;
+}
+#amazing-features-content .amazing-features .amazing-feature-logo img {
+  height: 32px;
+  width: 32px;
+  margin: 15px;
+  margin-top: -15px;
+}
+#amazing-features-content .amazing-features .company-aim h3 {
+  color: #7a7a7a;
+}
+#amazing-features-content .our-main-goal {
+  margin: 30px;
+}
+#amazing-features-content .our-main-goal .amazing-features-purpose .amazing-spacing {
+  margin-top: 30px;
+}
+#amazing-features-content .our-main-goal .amazing-features-purpose .amazing-spacing .amazing-features-purpose-icon {
+  margin: 15px;
+}
+#amazing-features-content .our-main-goal .amazing-features-purpose .amazing-spacing .amazing-features-purpose-icon a i.fa.amazing-png {
+  color: #00a99d;
+  font-size: 2.3rem;
+}
+#amazing-features-content .our-main-goal .amazing-features-purpose .amazing-spacing .amazing-features-services h3 {
+  color: #e4e4e4;
+  font-weight: 600;
+}
+#amazing-features-content .our-main-goal .amazing-features-purpose .amazing-spacing .amazing-features-services p {
+  color: #7a7a7a;
+}
+
+#amazing-progress-section {
+  background-color: #383838;
+}
+#amazing-progress-section .amazing-features {
+  text-align: center;
+}
+#amazing-progress-section .amazing-features .amazing-feature-logo {
+  text-align: center;
+}
+#amazing-progress-section .amazing-features .amazing-feature-logo img {
+  height: 32px;
+  width: 32px;
+  margin: 15px;
+  margin-top: -15px;
+}
+#amazing-progress-section .amazing-features .main-content-title-intro .title-intro h2 {
+  color: white;
+}
+#amazing-progress-section .amazing-features .company-aim h3 {
+  color: #7a7a7a;
+}
+#amazing-progress-section .our-main-goal {
+  margin-top: 30px;
+  padding: 20px;
+}
+#amazing-progress-section .progress {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  background: none;
+  margin: 0 auto;
+  box-shadow: none;
+  position: relative;
+}
+#amazing-progress-section .progress:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 12px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#amazing-progress-section .progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+#amazing-progress-section .progress .progress-left {
+  left: 0;
+}
+#amazing-progress-section .progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 12px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+#amazing-progress-section .progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+#amazing-progress-section .progress .progress-right {
+  right: 0;
+}
+#amazing-progress-section .progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+  animation: loading-1 1.8s linear forwards;
+}
+#amazing-progress-section .progress .progress-value {
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: #44484b;
+  font-size: 24px;
+  color: #fff;
+  line-height: 135px;
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+#amazing-progress-section .progress.blue .progress-bar {
+  border-color: #00a99d;
+}
+#amazing-progress-section .progress.blue .progress-left .progress-bar {
+  animation: loading-2 1.5s linear forwards 1.8s;
+}
+@keyframes loading-1 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+@keyframes loading-2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(144deg);
+    transform: rotate(144deg);
+  }
+}
+@keyframes loading-3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(75deg);
+    transform: rotate(75sdeg);
+  }
+}
+@keyframes loading-4 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(36deg);
+    transform: rotate(36deg);
+  }
+}
+@keyframes loading-5 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(126deg);
+    transform: rotate(126deg);
+  }
+}
+@media only screen and (max-width: 990px) {
+  #amazing-progress-section .progress {
+    margin-bottom: 20px;
+  }
+}
+
+#amazing-profile-images .amazing-features {
+  text-align: center;
+}
+#amazing-profile-images .amazing-features .amazing-feature-logo {
+  text-align: center;
+}
+#amazing-profile-images .amazing-features .amazing-feature-logo img {
+  height: 32px;
+  width: 32px;
+  margin: 15px;
+  margin-top: -15px;
+}
+#amazing-profile-images .amazing-features .main-content-title-intro .title-intro h2 {
+  color: #383838;
+}
+#amazing-profile-images .amazing-features .company-aim h3 {
+  color: #7a7a7a;
+}
+#amazing-profile-images .sample-works-profile {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+#amazing-profile-images .sample-works-profile .wrapper {
+  position: relative;
+}
+#amazing-profile-images .sample-works-profile .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#amazing-profile-images .sample-works-profile .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #00a99d;
+}
+#amazing-profile-images .sample-works-profile .wrapper:hover .overlay {
+  opacity: 1;
+}
+#amazing-profile-images .sample-works-profile .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#amazing-profile-images .sample-works-profile .text h3 {
+  margin: 12px;
+  color: white;
+}
+#amazing-profile-images .sample-works-profile .text h4 {
+  color: white;
+  font-weight: 400;
+}
+
+.view-all-works {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #00a99d;
+  padding: 6px;
+  margin-bottom: 11px;
+  margin-top: 40px;
+}
+.view-all-works h3 {
+  color: white;
+}
+
+#amazing-progress-section .amazing-text h3 {
+  font-weight: 500;
+  font-size: 88px;
+  font-family: "Raleway";
+  color: #e4e4e4;
+}
+#amazing-progress-section .amazing-text h3::before {
+  content: "";
+  background-image: url("../images/left-shape.png");
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  left: 33px;
+  top: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#amazing-progress-section .amazing-text h3::after {
+  content: "";
+  background-image: url("../images/left-shape.png");
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  right: 33px;
+  top: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#amazing-progress-section .amazing-text h3:hover::before {
+  content: "";
+  background-image: url("../images/shape1.png");
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  left: 33px;
+  top: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#amazing-progress-section .amazing-text h3:hover::after {
+  content: "";
+  background-image: url("../images/shape1.png");
+  position: absolute;
+  height: 15px;
+  width: 16px;
+  right: 33px;
+  top: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#amazing-progress-section .amazing-text p::before {
+  content: "";
+  border: -1px solid;
+  border-color: #e4e4e4;
+  display: block;
+  width: 48px;
+}
+#amazing-progress-section .amazing-text p::after {
+  content: "";
+}
+
+.unlimited-features {
+  background-color: #00a99d;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+.unlimited-features h3 {
+  font-weight: 600;
+  color: #e4e4e4;
+  font-size: 20px;
+  margin-top: 4px;
+}
+.unlimited-features .unlimited-features-more button {
+  font-weight: 700;
+  color: #383838;
+  font-size: 15px;
+  margin-right: 12px;
+}
+.unlimited-features .unlimited-features-more button:hover {
+  background-color: #00a99d;
+  color: white;
+  font-weight: 600;
+}
+
+.team-members #amazing-progress-section {
+  background-color: #e4e4e4;
+  margin-bottom: 12px;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+#amazing-features-content{
+    margin-top:20px;
+    background-color: $color-dark-grey;
+    .main-content-title-intro{
+        margin-top:10px;
+    }
+     .company-aim{
+         margin-top: 12px;
+    }
+     h2 {
+        color:$color-white;
+        .special-word{
+            color:$color-green;     
+        }
+    }
+     .title-intro h2{
+         font-weight:700;
+         position:relative;
+         &:before{
+            content:"";
+            background-image:url('../images/shape1.png');
+            position:absolute;
+            height:15px;
+            width: 16px;
+            left:-23px;
+            background-repeat: no-repeat;
+        }
+         &::after {
+            content:"";
+            background-image:url('../images/shape1.png');
+            position:absolute;
+            height:15px;
+            width: 16px;
+            right:-23px;
+            background-repeat: no-repeat;
+        }
+    }
+    .amazing-features{
+        text-align: center;
+        .amazing-feature-logo{
+            text-align: center;
+            img{
+            height: 32px;
+            width: 32px;
+            margin: 15px;
+            margin-top:-15px;
+            }
+        }
+        .main-content-title-intro{
+            
+        }
+        .company-aim{
+            h3{
+        
+            }
+        }      
+    }
+    .our-main-goal{
+        .amazing-features-purpose{
+            .amazing-features-purpose-icon{
+                a{
+                    i.fa.amazing-png{
+                    }
+                }
+            }
+            .amazing-features-services{
+               h3{
+                color: $color-grey;
+               }
+               p{
+                color: $color-grey;
+               }
+            }
+        }
+    }
+}s
